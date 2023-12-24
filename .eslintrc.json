@@ -1,3 +1,19 @@
 {
-  "extends": "next/core-web-vitals"
+    "extends": "next/core-web-vitals",
+    "rules": {
+        "camelcase": "warn",
+        "comma-spacing": "warn",
+        "arrow-body-style": "warn",
+        "valid-jsdoc": "warn"
+    },
+    "ecmaFeatures": {
+        "arrowFunctions": true,
+        "classes": true,
+        "destructuring": true,
+        "forOf": true,
+        "jsx": true,
+        "impliedStrict": true,
+        "templateStrings": true,
+        "spread": true
+    }
 }
